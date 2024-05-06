@@ -1,12 +1,16 @@
 import "./App.css";
-import { Header, Footer, Container } from "./components/index";
+import { Container } from "./components/index";
+import { Footer, Header, Hero } from "./sections/index";
+
+
+
 
 const App = () => {
   return (
     <>
-      <Header text="New Header" color="white" />
+      <Header text="New Header" color="steelblue" />
       <Container>
-        <Header text="Child Header" color="white" />
+        <Hero />
       </Container>
       <Footer position="fixed" />
     </>

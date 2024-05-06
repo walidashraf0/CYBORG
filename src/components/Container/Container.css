@@ -1,0 +1,9 @@
+.main-container {
+    padding: var(--padding-primary);
+    background-color: var(--color-dark);
+    border-radius: var(--border-radius-primary);
+    -webkit-border-radius: var(--border-radius-primary);
+    -moz-border-radius: var(--border-radius-primary);
+    -ms-border-radius: var(--border-radius-primary);
+    -o-border-radius: var(--border-radius-primary);
+}
