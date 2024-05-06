@@ -1,0 +1,13 @@
+/* Section Wrapper */
+/* Most Popular */
+.most-popular {
+    color: var(--color-light);
+    background-color: var(--color-darkest);
+    padding: var(--padding-primary);
+    margin-top: var(--margin-primary);
+    border-radius: var(--border-radius-primary);
+    -webkit-border-radius: var(--border-radius-primary);
+    -moz-border-radius: var(--border-radius-primary);
+    -ms-border-radius: var(--border-radius-primary);
+    -o-border-radius: var(--border-radius-primary);
+}

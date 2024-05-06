@@ -1,5 +1,4 @@
-.hero-main,
-.most-popular {
+.hero-main {
     background-image: url(../../assets/images/banner-bg.jpg);
     background-repeat: no-repeat;
     background-position: top right;
@@ -49,23 +48,3 @@
     -o-border-radius: calc(var(--border-radius-primary) + 5px);
 }
 
-/* Most Popular */
-.most-popular {
-    margin-top: calc(var(--margin-primary) + 15px);
-    background-image: none;
-    background-color: var(--color-darkest);
-}
-
-.most-title {
-    font-size: 30px;
-    font-weight: var(--font-weight-bold);
-    text-decoration: underline;
-    margin-right: 15px;
-}
-
-.most-right {
-    font-size: 30px;
-    font-weight: var(--font-weight-bold);
-    color: var(--color-primary);
-    font-style: normal;
-}

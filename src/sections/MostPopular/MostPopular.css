@@ -1,0 +1,7 @@
+/* Most Popular */
+.most-popular-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px -15px;
+}

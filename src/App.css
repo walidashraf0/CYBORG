@@ -4,6 +4,7 @@
     --color-darkest: #1F2122;
     --color-light: #ffffff;
     --color-primary: #EC6090;
+    --color-star-icon: #FFFF00;
 
     --color-bg-body: #1F2122;
 
@@ -20,4 +21,12 @@
 body {
     background-color: var(--color-bg-body);
     font-family: var(--font-family-primary);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }

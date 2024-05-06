@@ -1,0 +1,46 @@
+/* Card Item  */
+.most-popular-item {
+    flex: 1 25%;
+}
+
+.card-wrapper {
+    margin: calc(var(--margin-primary) / 5);
+    background-color: var(--color-dark);
+    padding: calc(var(--padding-primary) / 2);
+    border-radius: calc(var(--border-radius-primary) / 2);
+    -webkit-border-radius: calc(var(--border-radius-primary) / 2);
+    -moz-border-radius: calc(var(--border-radius-primary) / 2);
+    -ms-border-radius: calc(var(--border-radius-primary) / 2);
+    -o-border-radius: calc(var(--border-radius-primary) / 2);
+}
+
+.card-wrapper .popular-img {
+    width: 100%;
+    margin-bottom: calc(var(--margin-primary) / 2);
+    border-radius: calc(var(--border-radius-primary) / 4);
+    -webkit-border-radius: calc(var(--border-radius-primary) / 4);
+    -moz-border-radius: calc(var(--border-radius-primary) / 4);
+    -ms-border-radius: calc(var(--border-radius-primary) / 4);
+    -o-border-radius: calc(var(--border-radius-primary) / 4);
+}
+
+.item-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.item-title span {
+    color: #666;
+    font-weight: 400;
+    /* margin-top: 7px; */
+}
+
+i.star {
+    color: yellow;
+}

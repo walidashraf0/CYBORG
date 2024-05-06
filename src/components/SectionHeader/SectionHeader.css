@@ -1,0 +1,14 @@
+/* Section Header */
+.most-title {
+    font-size: 36px;
+    font-weight: var(--font-weight-bold);
+    text-decoration: underline;
+    margin-right: 15px;
+}
+
+.most-right {
+    font-size: 36px;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+    font-style: normal;
+}

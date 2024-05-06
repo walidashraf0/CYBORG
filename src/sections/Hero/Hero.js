@@ -12,14 +12,6 @@ const Hero = () => {
             </div>
         </div>
       </div>
-
-      <div className="most-popular">
-        <div className="popular-text">
-          <span className="most-title">Most Popular</span>
-          <em className="most-right">Right Now</em>
-        </div>
-        
-      </div>
     </>
   );
 };
