@@ -1,10 +1,10 @@
 import './Footer.css';
 
 
-const Footer = () => {
+const Footer = (props) => {
     return (
         <>
-        <h1>Footer</h1>
+        <h1 style={{position: props.position}}>Footer</h1>
         </>
     )
 }

@@ -4,9 +4,9 @@ import { Header, Footer, Container } from "./components/index";
 const App = () => {
   return (
     <>
-      <Header />
+      <Header text="New Header" color="white" />
       <Container />
-      <Footer />
+      <Footer position="fixed" />
     </>
   );
 };
