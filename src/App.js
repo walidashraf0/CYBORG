@@ -5,7 +5,9 @@ const App = () => {
   return (
     <>
       <Header text="New Header" color="white" />
-      <Container />
+      <Container>
+        <Header text="Child Header" color="white" />
+      </Container>
       <Footer position="fixed" />
     </>
   );
