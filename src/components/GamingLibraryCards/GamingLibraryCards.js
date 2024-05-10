@@ -16,9 +16,7 @@ const GamingLibraryCards = (props) => {
             <li><h4>Data Added</h4><span>{props.data_added}</span></li>
             <li><h4>Hours Played</h4><span>{props.hours_played}</span></li>
             <li><h4>Currently</h4><span>{props.download}</span></li>
-            <div className='main-button'>
-              <SecondaryButton>Download</SecondaryButton>
-            </div>
+            <SecondaryButton>Download</SecondaryButton>
         </ul>
     </div>
   )
