@@ -1,6 +1,6 @@
 import "./App.css";
 import { Container } from "./components/index";
-import { Footer, Header, Hero, MostPopular } from "./sections/index";
+import { Footer, Header, Hero, MostPopular, GamingLibrary } from "./sections/index";
 
 
 
@@ -12,8 +12,9 @@ const App = () => {
       <Container>
         <Hero />
         <MostPopular />
+        <GamingLibrary />
       </Container>
-      <Footer position="fixed" />
+      <Footer />
     </>
   );
 };
