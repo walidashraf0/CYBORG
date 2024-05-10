@@ -9,7 +9,7 @@ import { Home, Profile } from "./Pages/index";
 const App = () => {
   return (
     <>
-      <BrowserRouter basename={''}>
+      <BrowserRouter basename={'/CYBORG/'}>
         <Header text="New Header" color="steelblue" />
           <Container>
             <Routes>
